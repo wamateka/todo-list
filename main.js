@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+/*window.addEventListener("load", () => {
   todos = JSON.parse(localStorage.getItem("todos")) || [];
   const nameInput = document.querySelector("#name");
   const newTodoForm = document.querySelector("#new-todo-form");
@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
 
   DisplayTodos();
 });
-
+*/
 function DisplayTodos() {
   const todolist = document.querySelector("#todo-list");
 
